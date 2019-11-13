@@ -3,11 +3,11 @@ source 'https://rubygems.org'
 gem 'rails', '5.0.7.1'
 gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'sass-rails'
+gem 'sass-rails', '>= 5'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'uglifier'
 gem 'bootsnap'
-
+gem 'sprockets', '~>3.0'
 gem 'sqlite3', '~>1.3.6'
 
 group :development, :test do
