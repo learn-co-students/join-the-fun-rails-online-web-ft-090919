@@ -5,3 +5,6 @@ class CreatePassengers < ActiveRecord::Migration
     end
   end
 end
+
+
+rails g migration add_foreign_keys_to_ride passenger_id:integer taxi_id:integer --no-test-framework
